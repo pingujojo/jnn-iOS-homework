@@ -21,6 +21,7 @@
 		21DB5E0F1938DBBD005ADAA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DB5DF11938DBBD005ADAA0 /* UIKit.framework */; };
 		21DB5E171938DBBD005ADAA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21DB5E151938DBBD005ADAA0 /* InfoPlist.strings */; };
 		21DB5E191938DBBD005ADAA0 /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DB5E181938DBBD005ADAA0 /* CardGameTests.m */; };
+		21DB5E241938DC3D005ADAA0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DB5E231938DC3D005ADAA0 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		21DB5E141938DBBD005ADAA0 /* CardGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardGameTests-Info.plist"; sourceTree = "<group>"; };
 		21DB5E161938DBBD005ADAA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21DB5E181938DBBD005ADAA0 /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
+		21DB5E221938DC3D005ADAA0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		21DB5E231938DC3D005ADAA0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		21DB5DF31938DBBD005ADAA0 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				21DB5E231938DC3D005ADAA0 /* Card.m */,
+				21DB5E221938DC3D005ADAA0 /* Card.h */,
 				21DB5DFC1938DBBD005ADAA0 /* AppDelegate.h */,
 				21DB5DFD1938DBBD005ADAA0 /* AppDelegate.m */,
 				21DB5DFF1938DBBD005ADAA0 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				21DB5E041938DBBD005ADAA0 /* ViewController.m in Sources */,
 				21DB5DFE1938DBBD005ADAA0 /* AppDelegate.m in Sources */,
 				21DB5DFA1938DBBD005ADAA0 /* main.m in Sources */,
+				21DB5E241938DC3D005ADAA0 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>044B00C9-745E-4306-9A01-E62C70657E4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CardGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5257B6D0-33FE-48EA-AC2F-2CD8AB8E1360</key>
+		<string>https://github.com/pingujojo/jnn-iOS-homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CardGame/CardGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5257B6D0-33FE-48EA-AC2F-2CD8AB8E1360</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pingujojo/jnn-iOS-homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5257B6D0-33FE-48EA-AC2F-2CD8AB8E1360</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5257B6D0-33FE-48EA-AC2F-2CD8AB8E1360</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jnn-iOS-homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
