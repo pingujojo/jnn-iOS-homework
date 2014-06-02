@@ -9,10 +9,32 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *flipCountLabel;
+@property (nonatomic) int flipCount;
 @end
 
 @implementation ViewController
+- (void) setFlipCount:(int)flipCount
+{
+    _flipCount = flipCount;
+    self.flipCountLabel.text = [NSString stringWithFormat:@"%d", flipCount];
+}
+
+- (IBAction)touchCardButton:(UIButton *)sender {
+    
+    if ([sender.currentTitle length]) {
+        [sender setBackgroundImage:[UIImage imageNamed:@"JNNCardBack"]
+                          forState:UIControlStateNormal];
+        [sender setTitle:@""
+                forState:UIControlStateNormal];
+    } else {
+        [sender setBackgroundImage:[UIImage imageNamed:@"JNNCardFront"]
+                          forState:UIControlStateNormal];
+        [sender setTitle:@"A♠️"
+                forState:UIControlStateNormal];
+    }
+    self.flipCount++;
+}
 
 - (void)viewDidLoad
 {
